@@ -48,7 +48,7 @@ public class BookAdapter extends RecyclerView.Adapter<BookAdapter.ViewHolder> {
         holder.txtBookName.setText(book.getBookName());
         holder.txtBookId.setText(String.valueOf(book.getBookId()));
         holder.txtBookPrint.setText(String.valueOf(book.getBookPrint()));
-        holder.txtBookPublication.setText(book.getBookId());
+        holder.txtBookPublication.setText(book.getBookId() + "");
         holder.txtBookPrice.setText(String.format("%.0f", book.getBookPrice()) + "đ");
     }
 

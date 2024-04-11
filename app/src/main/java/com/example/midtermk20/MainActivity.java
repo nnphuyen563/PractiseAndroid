@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void createDb() {
-        db = new Databases(MainActivity.this);
+        db = new Databases(this);
         db.createSampleData();
     }
 
