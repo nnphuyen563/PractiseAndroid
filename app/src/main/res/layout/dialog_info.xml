@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Information"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#2979FF"/>
+
+    <EditText
+        android:id="@+id/edtBookId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Book Id"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/edtBookName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Book Name"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/edtBookPublication"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Book Publication"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/edtBookPrint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Book Print"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/edtBookPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Book Price"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btnUploadPhoto"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Upload photo"
+            android:textSize="18sp"
+            android:backgroundTint="#00E5FF"/>
+
+        <ImageView
+            android:id="@+id/imvUpCover"
+            android:layout_width="60dp"
+            android:layout_height="90dp"
+            android:src="@null"
+            android:layout_marginStart="150dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textSize="20sp"
+        android:backgroundTint="#2979FF"
+        android:textColor="@color/white"
+        android:layout_gravity="right"/>
+
+
+</LinearLayout>
